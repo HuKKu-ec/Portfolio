@@ -1,6 +1,6 @@
 # Portfolio
 
-This is a portfolio website which created using react.
+This is a portfolio website which created using react.Also you can view it in this domain  [https://hukbathec.tech](https://hukbathec.tech)
 
 # Getting Started with Create React App
 
