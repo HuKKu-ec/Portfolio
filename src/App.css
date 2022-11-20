@@ -1,247 +1,210 @@
 /* header */
 nav span :hover {
-    color: #FCAB2B;
+  color: #fcab2b;
 }
 
 nav button :hover {
-    color: #FCAB2B;
+  color: #fcab2b;
 }
 
 .span {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .ContainerDiv {
-    font-family: 'Kodchasan';
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-
-
+  font-family: 'Kodchasan';
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .ContainerDiv::after {
-    display: block;
-    content: "";
-    clear: both;
-
+  display: block;
+  content: '';
+  clear: both;
 }
 
 .homeContainer {
-    position: absolute;
-    float: left;
-    margin-top: 100px;
-
-
+  position: absolute;
+  float: left;
+  margin-top: 100px;
 }
 
 .homeContainer::after {
-    display: block;
-    content: "";
-    clear: both;
-
+  display: block;
+  content: '';
+  clear: both;
 }
 
 .homeContainer h1 {
-    color: #FCAB2B;
-    margin: 0px;
-    font-size: 6rem;
-
+  color: #fcab2b;
+  margin: 0px;
+  font-size: 6rem;
 }
 
 .homeContainer p {
-    color: #000;
-    margin: 0;
-    font-size: 1.5rem;
+  color: #000;
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 .hireButton {
-    font-family: 'Kodchasan';
-    margin-top: 15px;
-    background-color: #FCAB2B;
-    border: 0px;
-    padding: 15px 30px;
-    border-radius: .5rem;
-    font-size: 1rem;
-    color: #fff;
-    cursor: pointer;
-
+  font-family: 'Kodchasan';
+  margin-top: 15px;
+  background-color: #fcab2b;
+  border: 0px;
+  padding: 15px 30px;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
 }
 
 .imageConatainer {
-    float: right;
+  float: right;
 }
 
 .imageConatainer img {
-    max-height: 650px;
+  max-height: 650px;
 }
 
 .devContainer {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .fontHead {
-    font-size: 6rem;
-    margin: 0px;
-    text-align: center;
+  font-size: 6rem;
+  margin: 0px;
+  text-align: center;
 }
 
 .box {
-    width: 50%;
-    margin: 10px
+  width: 50%;
+  margin: 10px;
 }
 
 /* media Queries */
-@media screen and (max-width:1150px) {
-    .imageConatainer img {
-        max-height: 550px;
-    }
+@media screen and (max-width: 1150px) {
+  .imageConatainer img {
+    max-height: 550px;
+  }
 
-    .homeContainer h1 {
-        color: #FCAB2B;
-        margin: 0px;
-        font-size: 4rem;
+  .homeContainer h1 {
+    color: #fcab2b;
+    margin: 0px;
+    font-size: 4rem;
+  }
 
-    }
+  .homeContainer p {
+    color: #000;
+    margin: 0;
+    font-size: 1.2rem;
+  }
 
-    .homeContainer p {
-        color: #000;
-        margin: 0;
-        font-size: 1.2rem;
-    }
-
-    .hireButton {
-        font-family: 'Kodchasan';
-        margin-top: 15px;
-        background-color: #FCAB2B;
-        border: 0px;
-        padding: 10px 15px;
-        border-radius: .5rem;
-        font-size: 1rem;
-        color: #fff;
-        cursor: pointer;
-
-    }
-
-
+  .hireButton {
+    font-family: 'Kodchasan';
+    margin-top: 15px;
+    background-color: #fcab2b;
+    border: 0px;
+    padding: 10px 15px;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+  }
 }
 
+@media screen and (max-width: 946px) {
+  .imageConatainer img {
+    max-height: 400px;
+  }
 
-@media screen and (max-width:946px) {
-    .imageConatainer img {
-        max-height: 400px;
-    }
+  .homeContainer h1 {
+    color: #fcab2b;
+    margin: 0px;
+    font-size: 2.5rem;
+  }
 
-    .homeContainer h1 {
-        color: #FCAB2B;
-        margin: 0px;
-        font-size: 2.5rem;
+  .homeContainer p {
+    color: #000;
+    margin: 0;
+    font-size: 0.8rem;
+  }
 
-    }
-
-    .homeContainer p {
-        color: #000;
-        margin: 0;
-        font-size: .8rem;
-    }
-
-    .hireButton {
-        font-family: 'Kodchasan';
-        margin-top: 15px;
-        background-color: #FCAB2B;
-        border: 0px;
-        padding: 10px 15px;
-        border-radius: .5rem;
-        font-size: 1rem;
-        color: #fff;
-        cursor: pointer;
-    }
-
-
-
+  .hireButton {
+    font-family: 'Kodchasan';
+    margin-top: 15px;
+    background-color: #fcab2b;
+    border: 0px;
+    padding: 10px 15px;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+  }
 }
 
+@media screen and (max-width: 852px) {
+  nav span {
+    font-size: 0.7rem;
+  }
 
+  nav button {
+    font-size: 0.7rem;
+  }
 
+  .devContainer {
+    margin-top: 20px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
 
-@media screen and (max-width:852px) {
-    nav span {
-        font-size: .7rem;
-
-    }
-
-    nav button {
-        font-size: .7rem;
-    }
-
-    .devContainer {
-        margin-top: 20px;
-        display: block;
-        justify-content: center;
-        text-align: center;
-
-    }
-    
-    .box{
-        
-        margin: 0px auto;
-        margin-bottom: 20px;
-        width: 85%;
-    }
-
-
-
+  .box {
+    margin: 0px auto;
+    margin-bottom: 20px;
+    width: 85%;
+  }
 }
 
-@media screen and (max-width:680px) {
-    .fontHead {
-        font-size: 3.5rem;
-        margin-bottom: 20px;
-    }
+@media screen and (max-width: 680px) {
+  .fontHead {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
 
-    .ContainerDiv {
-        font-family: 'Kodchasan';
-        position: relative;
-        max-width: 600px;
-        text-align: center;
-        height: 100%;
-    }
+  .ContainerDiv {
+    font-family: 'Kodchasan';
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+    height: 100%;
+  }
 
-    .homeContainer {
+  .homeContainer {
+    position: absolute;
+    bottom: -160px;
+    background-color: rgba(255, 255, 255, 0.896);
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
 
-        position: absolute;
-        bottom: -160px;
-        background-color: rgba(255, 255, 255, 0.896);
-        padding: 10px;
-        text-align: center;
-        width: 100%;
-
-    }
-
-    .imageConatainer {
-        float: none;
-    }
+  .imageConatainer {
+    float: none;
+  }
 }
 
-
-@media screen and (max-width:727px) {
-    .header {
-        height: 100px;
-    }
-
-
+@media screen and (max-width: 727px) {
+  .header {
+    height: 100px;
+  }
 }
 
-
-@media screen and (max-width:568px) {
-
-
-    .span {
-        margin: 3px;
-    }
-
+@media screen and (max-width: 568px) {
+  .span {
+    margin: 3px;
+  }
 }

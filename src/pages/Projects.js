@@ -1,16 +1,17 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-const Blog = () => {
+
+const Projects = () => {
   return (
     <div>
       <Helmet>
-        <title>hukbathec | Blogs</title>
+        <title>hukbathec | Projects</title>
       </Helmet>
       <div
         style={{ fontFamily: 'Kodchasan', marginTop: 50, textAlign: 'center' }}
       >
         <h1 className="fontHead">
-          My <span style={{ color: '#FCAB2B' }}>Blogs</span>
+          My <span style={{ color: '#FCAB2B' }}>Projects</span>
         </h1>
       </div>
       <div className="devContainer" style={{ fontFamily: 'Kodchasan' }}>
@@ -23,7 +24,7 @@ const Blog = () => {
             borderRadius: 5,
           }}
         >
-          <b> no blogs</b>
+          <b> No Projects</b>
         </div>
         <div
           className="box"
@@ -34,11 +35,11 @@ const Blog = () => {
             borderRadius: 5,
           }}
         >
-          <b> No blogs</b>
+          <b> No Projects</b>
         </div>
       </div>
     </div>
   );
 };
 
-export default Blog;
+export default Projects;

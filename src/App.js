@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Achievements from './pages/Achievements';
 import Skills from './pages/Skills';
 import Blog from './pages/Blog';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
             <Route path="achievements" element={<Achievements />} />
             <Route path="contact" element={<Contact />} />
             <Route path="skills" element={<Skills />} />
-            <Route path="blog" element={<Blog />} />
+            <Route path="blogs" element={<Blog />} />
+            <Route path="projects" element={<Projects />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>

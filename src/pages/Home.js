@@ -13,6 +13,45 @@ const Home = () => {
         <p className="subHeading">
           Web Developer | App Developer | UI/UX Desighner
         </p>
+        <table>
+          <tbody>
+            <tr style={{ height: 70 }}>
+              <td style={{ textAlign: 'left', padding: 5 }}>
+                <b>
+                  <a
+                    style={{ all: 'unset' }}
+                    href="https://github.com/HuKKu-ec"
+                  >
+                    <img alt="github" src="icgithub.png"></img>
+                  </a>
+                </b>
+                <br></br>
+              </td>
+              <td style={{ textAlign: 'left', padding: 5 }}>
+                <b>
+                  <a
+                    style={{ all: 'unset' }}
+                    href="https://www.linkedin.com/in/hukbath-ec/"
+                  >
+                    <img alt="linked in" src="iclinkedin.png"></img>
+                  </a>
+                </b>
+                <br></br>
+              </td>
+              <td style={{ textAlign: 'left', padding: 5 }}>
+                <b>
+                  <a
+                    style={{ all: 'unset' }}
+                    href="https://stackoverflow.com/users/16921952/hukbath-ec"
+                  >
+                    <img alt="stackoverflow" src="stackoverflow.png"></img>
+                  </a>
+                </b>
+                <br></br>
+              </td>
+            </tr>
+          </tbody>
+        </table>
         <Link to="/contact">
           <button className="hireButton">Hire me</button>
         </Link>

@@ -20,7 +20,7 @@ const Experience = () => {
 
       <div className="devContainer">
         <div
-          className="box"
+          className="box "
           style={{
             textAlign: 'center',
             padding: 30,
