@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <h1
         className="navbar-brand"
         style={{
@@ -108,12 +108,10 @@ const Header = () => {
             </b>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <button type="submit">
-            <Link style={{ all: 'unset' }} to="/contact">
-              Contact
-            </Link>
-          </button>
+        <form className="form-inline my-2 my-lg-0">
+          <Link style={{ all: 'unset' }} to="/contact">
+            <button type="submit">Contact</button>
+          </Link>
         </form>
       </div>
     </nav>

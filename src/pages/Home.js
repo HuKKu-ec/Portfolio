@@ -1,17 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import Typewriter from 'typewriter-effect';
+
 const Home = () => {
   return (
     <div className="ContainerDiv">
       <Helmet>
         <title>hukbathec | Home</title>
       </Helmet>
+
       <div className="homeContainer">
         <h1 className="heading">Hy! I Am</h1>
         <h1 className="heading">Hukbath Ec</h1>
         <p className="subHeading">
-          Web Developer | App Developer | UI/UX Desighner
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+
+                .typeString('Web Developer | App Developer | UI/UX Desighner')
+                .pauseFor(1000)
+
+                .start();
+            }}
+          />
         </p>
         <table>
           <tbody>
