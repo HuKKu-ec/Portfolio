@@ -81,10 +81,37 @@ nav button :hover {
 }
 
 .box {
-  width: 50%;
-  margin: 10px;
+  background-color: #fcab2b;
+  padding: 30px;
+  margin-top: 10px;
+  font-weight: bold;
+  border-radius: 10px;
 }
+.box:hover {
+  background-color: #43e4c7;
+  cursor: pointer;
+  color: #fff;
+}
+.desc {
+  height: 200px;
+  vertical-align: middle;
+}
+.desc p {
+  margin: 61px;
+}
+button {
+  background-color: #fcab2b;
+  font-weight: 300px;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+}
+button:hover {
+  background-color: #43e4c7;
 
+  color: #fff;
+}
 /* media Queries */
 @media screen and (max-width: 1150px) {
   .imageConatainer img {

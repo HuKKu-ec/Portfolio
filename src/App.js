@@ -15,7 +15,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Headers />
-        <div style={{ margin: 25 }}>
+        <div style={{ margin: 25, marginBottom: 0 }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />

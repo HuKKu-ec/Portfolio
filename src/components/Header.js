@@ -51,14 +51,14 @@ const Header = () => {
               </Link>
             </b>
           </li>
-          <li className="nav-item mr-2">
+          <li className="nav-item mr-2 ">
             <b>
               <Link
-                className="nav-link"
-                to="/experience"
+                to="/skills"
                 style={{ all: 'unset', cursor: 'pointer' }}
+                className="nav-link"
               >
-                Experience
+                Skills
               </Link>
             </b>
           </li>
@@ -73,17 +73,18 @@ const Header = () => {
               </Link>
             </b>
           </li>
-          <li className="nav-item mr-2 ">
+          <li className="nav-item mr-2">
             <b>
               <Link
-                to="/skills"
-                style={{ all: 'unset', cursor: 'pointer' }}
                 className="nav-link"
+                to="/experience"
+                style={{ all: 'unset', cursor: 'pointer' }}
               >
-                Skills
+                Experience
               </Link>
             </b>
           </li>
+
           <li className="nav-item mr-2 ">
             <b>
               <Link
@@ -108,7 +109,7 @@ const Header = () => {
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+          <button type="submit">
             <Link style={{ all: 'unset' }} to="/contact">
               Contact
             </Link>

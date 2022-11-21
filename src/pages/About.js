@@ -1,4 +1,5 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 const About = () => {
   return (
@@ -42,58 +43,31 @@ const About = () => {
         }}
       >
         <a style={{ textDecoration: 'none' }} href="Hukbath Ec.pdf">
-          <button
-            style={{
-              cursor: 'pointer',
-              display: 'block',
-              fontFamily: 'Kodchasan',
-              backgroundColor: '#FCAB2B',
-              color: '#fff',
-              borderRadius: 5,
-              border: 'none',
-              padding: 7,
-              paddingLeft: 25,
-              paddingRight: 25,
-              fontSize: '1.5rem',
-              marginTop: 15,
-            }}
-          >
-            Download Cv
-          </button>
+          <button>Download Cv</button>
         </a>
       </div>
 
       <div className="devContainer">
-        <div
-          style={{
-            padding: '4rem',
-            backgroundColor: '#FCAB2B',
-            margin: '1.8rem',
-            borderRadius: 5,
-          }}
-        >
-          <b>Web Developer</b>
-        </div>
-        <div
-          style={{
-            padding: '4rem',
-            backgroundColor: '#FCAB2B',
-            margin: '1.8rem',
-            borderRadius: 5,
-          }}
-        >
-          <b>App Developer</b>
-        </div>
-        <div
-          style={{
-            padding: '4rem',
-            backgroundColor: '#FCAB2B',
-            margin: '1.8rem',
-            borderRadius: 5,
-          }}
-        >
-          <b>UI/UX Desighner</b>
-        </div>
+        <Container>
+          <Row>
+            <Col>
+              <div className="box desc">
+                <p>Web Developer</p>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="box desc">
+                <p>App Developer</p>
+              </div>
+            </Col>
+            <Col>
+              <div className="box desc">
+                <p>UI/UX Desighner</p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </div>
   );

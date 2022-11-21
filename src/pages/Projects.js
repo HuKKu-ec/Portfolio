@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const Projects = () => {
   return (
@@ -15,28 +16,22 @@ const Projects = () => {
         </h1>
       </div>
       <div className="devContainer" style={{ fontFamily: 'Kodchasan' }}>
-        <div
-          className="box"
-          style={{
-            textAlign: 'center',
-            padding: 30,
-            backgroundColor: '#FCAB2B',
-            borderRadius: 5,
-          }}
-        >
-          <b> No Projects</b>
-        </div>
-        <div
-          className="box"
-          style={{
-            textAlign: 'center',
-            padding: 30,
-            backgroundColor: '#FCAB2B',
-            borderRadius: 5,
-          }}
-        >
-          <b> No Projects</b>
-        </div>
+        <Container>
+          <Row>
+            <Col xs={12} sm={6}>
+              <div className="box">asnjsndk</div>
+            </Col>
+            <Col xs={12} sm={6}>
+              <div className="box">asnjsndk</div>
+            </Col>
+            <Col xs={12} sm={6}>
+              <div className="box">asnjsndk</div>
+            </Col>
+            <Col xs={12} sm={6}>
+              <div className="box">asnjsndk</div>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </div>
   );
