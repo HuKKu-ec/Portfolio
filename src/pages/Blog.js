@@ -16,7 +16,9 @@ const Blog = () => {
       </div>
       <div className="devContainer" style={{ fontFamily: 'Kodchasan' }}>
         <Container>
-          <Row>No Blogs</Row>
+          <Row>
+            <Col>No Blogs</Col>
+          </Row>
         </Container>
       </div>
     </div>
