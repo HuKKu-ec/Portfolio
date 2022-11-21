@@ -4,17 +4,19 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
-      <h1
-        className="navbar-brand"
-        style={{
-          display: 'inline',
-          color: '#000',
-          fontFamily: 'Kodchasan',
-          fontSize: '1.5rem',
-        }}
-      >
-        <b>HUKBATH EC</b>
-      </h1>
+      <Link style={{ all: 'unset', cursor: 'pointer' }} to="/">
+        <h1
+          className="navbar-brand"
+          style={{
+            display: 'inline',
+            color: '#000',
+            fontFamily: 'Kodchasan',
+            fontSize: '1.5rem',
+          }}
+        >
+          <b>HUKBATH EC</b>
+        </h1>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"

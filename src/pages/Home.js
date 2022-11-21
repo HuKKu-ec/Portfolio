@@ -12,7 +12,9 @@ const Home = () => {
 
       <div className="homeContainer">
         <h1 className="heading">Hy! I Am</h1>
+
         <h1 className="heading">Hukbath Ec</h1>
+
         <p className="subHeading">
           <Typewriter
             onInit={(typewriter) => {
