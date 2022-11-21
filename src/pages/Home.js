@@ -30,7 +30,7 @@ const Home = () => {
         <table>
           <tbody>
             <tr style={{ height: 70 }}>
-              <td style={{ textAlign: 'left', padding: 5 }}>
+              <td style={{ textAlign: 'left', padding: 5, cursor: 'pointer' }}>
                 <b>
                   <a
                     style={{ all: 'unset' }}
@@ -41,7 +41,7 @@ const Home = () => {
                 </b>
                 <br></br>
               </td>
-              <td style={{ textAlign: 'left', padding: 5 }}>
+              <td style={{ textAlign: 'left', padding: 5, cursor: 'pointer' }}>
                 <b>
                   <a
                     style={{ all: 'unset' }}
@@ -52,7 +52,7 @@ const Home = () => {
                 </b>
                 <br></br>
               </td>
-              <td style={{ textAlign: 'left', padding: 5 }}>
+              <td style={{ textAlign: 'left', padding: 5, cursor: 'pointer' }}>
                 <b>
                   <a
                     style={{ all: 'unset' }}
