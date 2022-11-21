@@ -15,7 +15,7 @@ const Home = () => {
 
         <h1 className="heading">Hukbath Ec</h1>
 
-        <p className="subHeading">
+        <p className="subHeading" style={{ cursor: 'pointer' }}>
           <Typewriter
             onInit={(typewriter) => {
               typewriter
