@@ -15,7 +15,10 @@ const Projects = () => {
           My <span style={{ color: '#FCAB2B' }}>Projects</span>
         </h1>
       </div>
-      <div className="devContainer" style={{ fontFamily: 'Kodchasan' }}>
+      <div
+        className="devContainer"
+        style={{ fontFamily: 'Kodchasan', marginBottom: '80px' }}
+      >
         <Container>
           <Row>
             <Col xs={12} sm={6}>
