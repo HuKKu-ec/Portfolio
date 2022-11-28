@@ -26,12 +26,12 @@ const About = () => {
         }}
       >
         <p style={{ textAlign: 'center' }}>
-          An enthusiastic fresher who is highly motivated, eager to learn new
-          things is seeking a challenging position in the field of Web
-          Developer, App Developer, UI/UX Designer, so as to utilize my skills
-          for organization and individual growth.As I am determined to work and
+          I am an enthusiastic fresher who is highly self motivated, eager to
+          learn new things and seeking a challenging position in the field of
+          developing websites and apps so as to utilize my skills for
+          organization and individual growth. As I am determined to work and
           improve my individual abilities to benefit my future and the
-          organization am sure my explanation skills and my nature to get
+          organization, I am sure my explanation skills and my nature to get
           involved with new people will come in handy.
         </p>
       </div>
