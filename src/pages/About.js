@@ -42,7 +42,7 @@ const About = () => {
           alignItems: 'center',
         }}
       >
-        <a style={{ textDecoration: 'none' }} href="Hukbath Ec.pdf">
+        <a style={{ textDecoration: 'none' }} href="Hukbath Ec CV.pdf">
           <button>Download Cv</button>
         </a>
       </div>
