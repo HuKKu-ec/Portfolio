@@ -26,8 +26,7 @@ const Experience = () => {
               <div className="box">
                 {' '}
                 As part of IEDC SS College I made my contribution in UI design
-                of the Website for a Canada based Foundation named Irfaa (
-                <a href="https://irfaa.ca/"> View</a> ).
+                of the Website for a Canada based Foundation named Irfaa
               </div>
             </Col>
             <Col xs={12} sm={6}>
