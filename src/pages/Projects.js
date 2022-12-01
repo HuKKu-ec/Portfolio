@@ -36,7 +36,7 @@ const Projects = () => {
                 <br></br>[ Stacks used:React,Firebase ]<br></br> (
                 <a href="https://github.com/HuKKu-ec/real-chat"> Git repo </a> )
                 (
-                <a href="https://expo.dev/artifacts/d8d0591d-c5b5-41a8-a794-83fe8dfe42a2">
+                <a href="https://inquisitive-tulumba-fe7761.netlify.app/">
                   {' '}
                   View
                 </a>{' '}
@@ -57,7 +57,7 @@ const Projects = () => {
                 Stacks used:React Native,Firebase ]<br></br> (
                 <a href="https://github.com/HuKKu-ec/Kaarunya"> Git repo </a> )
                 (
-                <a href="https://expo.dev/artifacts/d8d0591d-c5b5-41a8-a794-83fe8dfe42a2">
+                <a href="https://expo.dev/artifacts/ab3d290f-8bbc-4d31-856f-417793a429f7">
                   {' '}
                   Download
                 </a>{' '}
@@ -78,7 +78,7 @@ const Projects = () => {
                 used:React ]<br></br> (
                 <a href="https://github.com/HuKKu-ec/travelpanda"> Git repo </a>{' '}
                 ) (
-                <a href=" :https://iridescent-tartufo-87a12d.netlify.app">
+                <a href="https://iridescent-tartufo-87a12d.netlify.app">
                   {' '}
                   View
                 </a>{' '}
