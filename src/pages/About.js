@@ -42,7 +42,10 @@ const About = () => {
           alignItems: 'center',
         }}
       >
-        <a style={{ textDecoration: 'none' }} href="Hukbath Ec CV.pdf">
+        <a
+          style={{ textDecoration: 'none' }}
+          href="Resume-Hukbath.Ec-Fresher-React Developer.pdf"
+        >
           <button>Download Cv</button>
         </a>
       </div>
