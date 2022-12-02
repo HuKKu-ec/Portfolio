@@ -20,7 +20,7 @@ const Home = () => {
             onInit={(typewriter) => {
               typewriter
 
-                .typeString('Web Developer | App Developer | UI/UX Desighner ')
+                .typeString('Web Developer | App Developer | UI/UX Designer ')
                 .pauseFor(1000)
 
                 .start();

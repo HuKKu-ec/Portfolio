@@ -66,7 +66,7 @@ const About = () => {
             </Col>
             <Col>
               <div className="box desc">
-                <p>UI/UX Desighner</p>
+                <p>UI/UX Designer</p>
               </div>
             </Col>
           </Row>
