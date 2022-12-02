@@ -17,18 +17,7 @@ const Blog = () => {
       <div className="devContainer" style={{ fontFamily: 'Kodchasan' }}>
         <Container>
           <Row>
-            {/* <Col xs={12} sm={6}>
-              <div className="box">asnjsndk</div>
-            </Col>
-            <Col xs={12} sm={6}>
-              <div className="box">asnjsndk</div>
-            </Col>
-            <Col xs={12} sm={6}>
-              <div className="box">asnjsndk</div>
-            </Col>
-            <Col xs={12} sm={6}>
-              <div className="box">asnjsndk</div>
-            </Col> */}
+            <Col>No Blogs</Col>
           </Row>
         </Container>
       </div>

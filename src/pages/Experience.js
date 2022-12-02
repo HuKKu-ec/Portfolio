@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 const Experience = () => {
   return (
@@ -23,29 +23,24 @@ const Experience = () => {
         <Container>
           <Row>
             <Col xs={12} sm={6}>
-              <div className="box">
+              <Card className="p-5 mt-3 b-card">
                 {' '}
                 As part of IEDC SS College I made my contribution in UI design
-                of the Website for a Canada based Foundation named Irfaa (
-                <a href="https://irfaa.ca/"> View</a> ).
-              </div>
+                of the Website for a Canada based Foundation named Irfaa
+              </Card>
             </Col>
             <Col xs={12} sm={6}>
-              <div className="box">
-                As part of my college project I made an app named Kaarunya for
-                palliative care units by Using React Native and Firebase.({' '}
-                <a href="https://expo.dev/artifacts/d8d0591d-c5b5-41a8-a794-83fe8dfe42a2">
-                  Download
-                </a>{' '}
-                ) ( <a href="https://github.com/HuKKu-ec/Kaarunya">Git repo</a>{' '}
-                )
-              </div>
+              <Card className="p-5 mt-3 b-card">
+                TinkerHub Tech Lead - Led a team of techy students on the campus
+                and also conducted tech talks , tech quiz programs for college
+                folks,
+              </Card>
             </Col>
             <Col xs={12} sm={6}>
-              <div className="box">
+              <Card className="p-5 mt-3 b-card">
                 I got a chance to give training to students of Majlis arts and
                 science college about Robotics and IOT.
-              </div>
+              </Card>
             </Col>
           </Row>
         </Container>

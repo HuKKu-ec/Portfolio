@@ -53,6 +53,7 @@ nav button :hover {
 }
 
 .hireButton {
+  margin-right: 30px;
   font-family: 'Kodchasan';
   margin-top: 15px;
   background-color: #fcab2b;
@@ -85,9 +86,9 @@ nav button :hover {
 }
 
 .box {
+  height: 100%;
   background-color: #fcab2b;
   padding: 30px;
-  margin-top: 10px;
   font-weight: bold;
   border-radius: 10px;
 }
@@ -121,6 +122,16 @@ li:hover {
 .is-active {
   color: #fcab2b;
 }
+
+.b-card {
+  background-color: #fcab2b;
+  font-weight: 600;
+  cursor: pointer;
+}
+.b-card:hover {
+  background-color: #43e4c7;
+}
+
 /* media Queries */
 @media screen and (max-width: 1150px) {
   .imageConatainer img {
@@ -140,6 +151,7 @@ li:hover {
   }
 
   .hireButton {
+    margin-right: 30;
     font-family: 'Kodchasan';
     margin-top: 15px;
     background-color: #fcab2b;
@@ -170,6 +182,7 @@ li:hover {
   }
 
   .hireButton {
+    margin-right: 30;
     font-family: 'Kodchasan';
     margin-top: 15px;
     background-color: #fcab2b;

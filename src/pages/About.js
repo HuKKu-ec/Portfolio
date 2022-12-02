@@ -26,12 +26,12 @@ const About = () => {
         }}
       >
         <p style={{ textAlign: 'center' }}>
-          An enthusiastic fresher who is highly motivated, eager to learn new
-          things is seeking a challenging position in the field of Web
-          Developer, App Developer, UI/UX Designer, so as to utilize my skills
-          for organization and individual growth.As I am determined to work and
+          I am an enthusiastic fresher who is highly self motivated, eager to
+          learn new things and seeking a challenging position in the field of
+          developing websites and apps so as to utilize my skills for
+          organization and individual growth. As I am determined to work and
           improve my individual abilities to benefit my future and the
-          organization am sure my explanation skills and my nature to get
+          organization, I am sure my explanation skills and my nature to get
           involved with new people will come in handy.
         </p>
       </div>
@@ -40,9 +40,13 @@ const About = () => {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
+          marginBottom: '15px',
         }}
       >
-        <a style={{ textDecoration: 'none' }} href="Hukbath Ec.pdf">
+        <a
+          style={{ textDecoration: 'none' }}
+          href="Resume-Hukbath.Ec-Fresher-React Developer.pdf"
+        >
           <button>Download Cv</button>
         </a>
       </div>
@@ -63,7 +67,7 @@ const About = () => {
             </Col>
             <Col>
               <div className="box desc">
-                <p>UI/UX Desighner</p>
+                <p>UI/UX Designer</p>
               </div>
             </Col>
           </Row>

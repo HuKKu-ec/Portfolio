@@ -1,6 +1,20 @@
 # Portfolio
 
-This is a portfolio website which created using react.Also you can view it in this domain  [https://www.hukbathec.tech](https://www.hukbathec.tech)
+This is a portfolio website which created using react.Also you can view it in this domain [https://www.hukbathec.tech](https://www.hukbathec.tech)
+
+## UI
+
+![Home](https://user-images.githubusercontent.com/70440965/205276518-ae5dd5b8-d614-45f0-bcac-a50d925c63bc.jpg)
+
+![About](https://user-images.githubusercontent.com/70440965/205276543-5688a95d-569d-45d4-bfd0-1ed6f86ef585.jpg)
+
+![Experiences](https://user-images.githubusercontent.com/70440965/205276594-4f748c10-159c-423e-b942-b1900a0f9ac8.jpg)
+
+![Achievements](https://user-images.githubusercontent.com/70440965/205276676-9a410295-727c-44b9-8fe3-3a5d5c69de2c.jpg)
+
+![Skills](https://user-images.githubusercontent.com/70440965/205277001-e897b412-6144-44b3-81f6-5c145253a985.jpg)
+
+![Contacts](https://user-images.githubusercontent.com/70440965/205276773-8e1d6f3a-259b-4c53-89b0-0b5fce03bbb2.jpg)
 
 # Getting Started with Create React App
 
@@ -72,4 +86,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 #

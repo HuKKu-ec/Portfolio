@@ -31,7 +31,7 @@ const Header = () => {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto" style={{ fontFamily: 'Kodchasan' }}>
-          <li className="nav-item mr-2">
+          <li className="nav-item mr-3">
             <b>
               <Link
                 className="nav-link"
@@ -42,7 +42,7 @@ const Header = () => {
               </Link>
             </b>
           </li>
-          <li className="nav-item mr-2">
+          <li className="nav-item mr-3">
             <b>
               <Link
                 to="/about"
@@ -53,7 +53,7 @@ const Header = () => {
               </Link>
             </b>
           </li>
-          <li className="nav-item mr-2 ">
+          <li className="nav-item mr-3 ">
             <b>
               <Link
                 to="/skills"
@@ -64,7 +64,7 @@ const Header = () => {
               </Link>
             </b>
           </li>
-          <li className="nav-item mr-2">
+          <li className="nav-item mr-3">
             <b>
               <Link
                 className="nav-link"
@@ -75,7 +75,7 @@ const Header = () => {
               </Link>
             </b>
           </li>
-          <li className="nav-item mr-2">
+          <li className="nav-item mr-3">
             <b>
               <Link
                 className="nav-link"
@@ -87,7 +87,7 @@ const Header = () => {
             </b>
           </li>
 
-          <li className="nav-item mr-2 ">
+          <li className="nav-item mr-3 ">
             <b>
               <Link
                 to="/blogs"
@@ -98,7 +98,7 @@ const Header = () => {
               </Link>
             </b>
           </li>
-          <li className="nav-item mr-2 ">
+          <li className="nav-item mr-3 ">
             <b>
               <Link
                 to="/projects"

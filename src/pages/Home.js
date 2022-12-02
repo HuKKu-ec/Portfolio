@@ -15,12 +15,12 @@ const Home = () => {
 
         <h1 className="heading">Hukbath Ec</h1>
 
-        <p className="subHeading">
+        <p className="subHeading" style={{ cursor: 'pointer' }}>
           <Typewriter
             onInit={(typewriter) => {
               typewriter
 
-                .typeString('Web Developer | App Developer | UI/UX Desighner ')
+                .typeString('Web Developer | App Developer | UI/UX Designer ')
                 .pauseFor(1000)
 
                 .start();
@@ -30,7 +30,7 @@ const Home = () => {
         <table>
           <tbody>
             <tr style={{ height: 70 }}>
-              <td style={{ textAlign: 'left', padding: 5 }}>
+              <td style={{ textAlign: 'left', padding: 5, cursor: 'pointer' }}>
                 <b>
                   <a
                     style={{ all: 'unset' }}
@@ -41,7 +41,7 @@ const Home = () => {
                 </b>
                 <br></br>
               </td>
-              <td style={{ textAlign: 'left', padding: 5 }}>
+              <td style={{ textAlign: 'left', padding: 5, cursor: 'pointer' }}>
                 <b>
                   <a
                     style={{ all: 'unset' }}
@@ -52,7 +52,7 @@ const Home = () => {
                 </b>
                 <br></br>
               </td>
-              <td style={{ textAlign: 'left', padding: 5 }}>
+              <td style={{ textAlign: 'left', padding: 5, cursor: 'pointer' }}>
                 <b>
                   <a
                     style={{ all: 'unset' }}
@@ -68,6 +68,10 @@ const Home = () => {
         </table>
         <Link to="/contact">
           <button className="hireButton">Hire me</button>
+        </Link>
+
+        <Link to="/projects">
+          <button className="hireButton">My Projects</button>
         </Link>
       </div>
       <div className="imageConatainer">
