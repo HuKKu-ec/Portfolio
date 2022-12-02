@@ -40,6 +40,7 @@ const About = () => {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
+          marginBottom: '15px',
         }}
       >
         <a
