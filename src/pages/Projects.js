@@ -23,15 +23,21 @@ const Projects = () => {
           <Row>
             <Col xs={12}>
               <Card className="p-5 mt-3 b-card">
-                <h3>Blog App</h3>This my first MERN App for blog writing
-                <br></br>[ Stack used:MERN ]<br></br>
-                <a href="https://github.com/HuKKu-ec/Blog-app"> Git repo </a>
-                <a href="https://splendid-lolly-e827fb.netlify.app/">
+                <h3>Kaarunya App</h3>Palliative care management App in this
+                system provides a better way for doctors, nurses and volunteers
+                to manage their documents and their files about a patient under
+                a palliative unit. Therefore, this system enhances the speed by
+                searching the documents, storing data more efficiently,
+                retrieving data, managing and updating data simply.<br></br>[
+                Stacks used:React Native,Firebase ]<br></br>
+                <a href="https://github.com/HuKKu-ec/Kaarunya"> Git repo </a>
+                <a href="https://expo.dev/artifacts/ab3d290f-8bbc-4d31-856f-417793a429f7">
                   {' '}
-                  View
+                  Download
                 </a>{' '}
               </Card>
             </Col>
+
             <Col xs={12}>
               <Card className="p-5 mt-3 b-card">
                 <h3>Real chat</h3>This is a Realtime Social messaging tool which
@@ -58,17 +64,12 @@ const Projects = () => {
             </Col>
             <Col xs={12}>
               <Card className="p-5 mt-3 b-card">
-                <h3>Kaarunya App</h3>Palliative care management App in this
-                system provides a better way for doctors, nurses and volunteers
-                to manage their documents and their files about a patient under
-                a palliative unit. Therefore, this system enhances the speed by
-                searching the documents, storing data more efficiently,
-                retrieving data, managing and updating data simply.<br></br>[
-                Stacks used:React Native,Firebase ]<br></br>
-                <a href="https://github.com/HuKKu-ec/Kaarunya"> Git repo </a>
-                <a href="https://expo.dev/artifacts/ab3d290f-8bbc-4d31-856f-417793a429f7">
+                <h3>Blog App</h3>This my first MERN App for blog writing
+                <br></br>[ Stack used:MERN ]<br></br>
+                <a href="https://github.com/HuKKu-ec/Blog-app"> Git repo </a>
+                <a href="https://splendid-lolly-e827fb.netlify.app/">
                   {' '}
-                  Download
+                  View
                 </a>{' '}
               </Card>
             </Col>
