@@ -53,6 +53,7 @@ nav button :hover {
 }
 
 .hireButton {
+  margin-right: 30px;
   font-family: 'Kodchasan';
   margin-top: 15px;
   background-color: #fcab2b;
@@ -85,9 +86,10 @@ nav button :hover {
 }
 
 .box {
+  height: 100%;
   background-color: #fcab2b;
   padding: 30px;
-  margin-top: 10px;
+
   font-weight: bold;
   border-radius: 10px;
 }
@@ -140,6 +142,7 @@ li:hover {
   }
 
   .hireButton {
+    margin-right: 30;
     font-family: 'Kodchasan';
     margin-top: 15px;
     background-color: #fcab2b;
@@ -170,6 +173,7 @@ li:hover {
   }
 
   .hireButton {
+    margin-right: 30;
     font-family: 'Kodchasan';
     margin-top: 15px;
     background-color: #fcab2b;

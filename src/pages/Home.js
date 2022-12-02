@@ -69,6 +69,10 @@ const Home = () => {
         <Link to="/contact">
           <button className="hireButton">Hire me</button>
         </Link>
+
+        <Link to="/projects">
+          <button className="hireButton">My Projects</button>
+        </Link>
       </div>
       <div className="imageConatainer">
         {/* <img style={{position:'absolute',}} src='icfacebook.png' alt='' /> */}
