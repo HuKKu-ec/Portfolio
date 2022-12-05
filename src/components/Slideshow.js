@@ -29,6 +29,10 @@ const Slideshow = () => {
       url: 'tinkerhub.jpeg',
       caption: 'Code A pookalam',
     },
+    {
+      url: 'reactjs.jpg',
+      caption: 'ReactJS',
+    },
   ];
 
   return (
