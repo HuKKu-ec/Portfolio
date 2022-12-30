@@ -43,10 +43,7 @@ const About = () => {
           marginBottom: '15px',
         }}
       >
-        <a
-          style={{ textDecoration: 'none' }}
-          href="Resume-Hukbath.Ec-Fresher-React Developer.pdf"
-        >
+        <a style={{ textDecoration: 'none' }} href="Hukbath Ec Resume.pdf">
           <button>Download Cv</button>
         </a>
       </div>
