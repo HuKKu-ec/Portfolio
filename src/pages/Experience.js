@@ -12,7 +12,7 @@ const Experience = () => {
     return () => {
       getExperiances();
     };
-  }, [experiances]);
+  }, []);
   const getExperiances = async () => {
     const equipment = collection(db, 'experiances');
     const snapshot = await getDocs(equipment);

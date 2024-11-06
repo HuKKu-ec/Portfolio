@@ -10,9 +10,8 @@ const Blog = () => {
   useEffect(() => {
     return () => {
       getBlogs();
-      console.log(blogs);
     };
-  }, [blogs]);
+  }, []);
   const getBlogs = async () => {
     const equipment = collection(db, 'blogs');
     const snapshot = await getDocs(equipment);
