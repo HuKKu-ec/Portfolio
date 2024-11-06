@@ -11,7 +11,7 @@ const Blog = () => {
     return () => {
       getBlogs();
     };
-  }, []);
+  }, [blogs]);
   const getBlogs = async () => {
     const equipment = collection(db, 'blogs');
     const snapshot = await getDocs(equipment);
