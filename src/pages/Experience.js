@@ -1,7 +1,25 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import { collection, getDocs } from 'firebase/firestore';
+import { useEffect, useState } from 'react';
+import { db } from '../firebase/config';
+
 const Experience = () => {
+  const [experiances, setExperiances] = useState([]);
+
+  useEffect(() => {
+    return () => {
+      getExperiances();
+    };
+  }, []);
+  const getExperiances = async () => {
+    const equipment = collection(db, 'experiances');
+    const snapshot = await getDocs(equipment);
+    const result = snapshot.docs.map((doc) => doc.data());
+    setExperiances(result);
+  };
+
   return (
     <div
       style={{
@@ -20,30 +38,25 @@ const Experience = () => {
       </h1>
 
       <div className="devContainer" style={{ fontFamily: 'Kodchasan' }}>
-        <Container>
-          <Row>
-            <Col xs={12} sm={6}>
-              <Card className="p-5 mt-3 b-card">
-                {' '}
-                As part of IEDC SS College I made my contribution in UI design
-                of the Website for a Canada based Foundation named Irfaa
-              </Card>
-            </Col>
-            <Col xs={12} sm={6}>
-              <Card className="p-5 mt-3 b-card">
-                TinkerHub Tech Lead - Led a team of techy students on the campus
-                and also conducted tech talks , tech quiz programs for college
-                folks,
-              </Card>
-            </Col>
-            <Col xs={12} sm={6}>
-              <Card className="p-5 mt-3 b-card">
-                I got a chance to give training to students of Majlis arts and
-                science college about Robotics and IOT.
-              </Card>
-            </Col>
-          </Row>
-        </Container>
+        {experiances.length !== 0 ? (
+          <Container>
+            <Row className="mt-5 ">
+              {experiances.map((exp, i) => (
+                <Col xs={12} sm={6} key={i} className="p-1">
+                  <Card className="p-5  b-card" style={{ height: '100%' }}>
+                    {exp.description}
+                  </Card>
+                </Col>
+              ))}
+            </Row>
+          </Container>
+        ) : (
+          <Container>
+            <Row>
+              <Col>Loading...</Col>
+            </Row>
+          </Container>
+        )}
       </div>
     </div>
   );

@@ -127,6 +127,7 @@ li:hover {
   background-color: #fcab2b;
   font-weight: 600;
   cursor: pointer;
+  justify-content: center;
 }
 .b-card:hover {
   background-color: #43e4c7;
