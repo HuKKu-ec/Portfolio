@@ -10,6 +10,7 @@ const Blog = () => {
   useEffect(() => {
     return () => {
       getBlogs();
+      console.log(blogs);
     };
   }, [blogs]);
   const getBlogs = async () => {
