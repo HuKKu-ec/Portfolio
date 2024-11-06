@@ -17,6 +17,8 @@ const Experience = () => {
     const equipment = collection(db, 'experiances');
     const snapshot = await getDocs(equipment);
     const result = snapshot.docs.map((doc) => doc.data());
+    console.log(result);
+
     setExperiances(result);
   };
 

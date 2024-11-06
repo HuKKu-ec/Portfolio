@@ -11,6 +11,8 @@ import Blog from './pages/Blog';
 import Projects from './pages/Projects';
 
 function App() {
+  console.log('test .........');
+
   return (
     <div>
       <BrowserRouter>
